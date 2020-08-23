@@ -1,0 +1,30 @@
+First Insert The Entire Folder Into Your Python Folder Via These Steps:
+1. Open Start Menu
+2. Type Run (or search for the program called run and open it)
+3. In the Run search bar, type in: %appdata%
+4. It will open a folder in AppData called Roaming
+5. Go back once and you will see the options: Local, Locallow, and Roaming
+6. Open the Local Folder
+7. Scroll down and open the Programs folder
+8. Open the Python folder and select the python folder version you want to use. For example 'Python 36'
+9. Open the Scripts folder
+10. Copy and paste (or simply move) the entire 'Face-Recognition-Twitter-Bot-master' into the scripts folder
+11. When you open VS Code, choose the 'Open Folder' option
+12. Copy the folder location where you pasted the folder (where it says "AppData>Local>Programs... etc)
+13. Paste it in VS Code's location bar and select and open the 'Face-Recognition-Twitter-Bot-master' folder
+14. Click facerectwitter.py to your left to view and run the code
+
+Extra Step:
+Move the image file "Twitter Notif" wherever you want and copy the folder location (i.e. "User>Pictures>Twitter Notif.jpg")
+If you don't want the picture to pop up, delete line 37 & 38
+
+
+Make sure you have a developer Twitter account and you enter you account's keys to ensure it works
+
+Install These Before Running Code:
+pip install numpy
+pip install twitter (or pytwitter)
+
+If you get an error message saying "the term 'pip' is not recognized as the name of a cmdlet..." install like this:
+py -m pip install numpy
+py -m pip install twitter (or pytwitter)
